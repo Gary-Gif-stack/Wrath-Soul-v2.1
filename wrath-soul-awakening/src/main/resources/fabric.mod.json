@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "wrathsoul",
+  "version": "${version}",
+  "name": "Wrath Soul",
+  "description": "A sword with Rage, Adrenaline, a Wide Slash and two combat modes.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.wrathsoul.WrathSoulMod"],
+    "client": ["com.wrathsoul.client.WrathSoulClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " N ",
+    "CNC",
+    " B "
+  ],
+  "key": {
+    "N": { "item": "minecraft:netherite_ingot" },
+    "C": { "item": "minecraft:crying_obsidian" },
+    "B": { "item": "minecraft:blaze_rod" }
+  },
+  "result": {
+    "id": "wrathsoul:wrath_soul",
+    "count": 1
+  }
+}
